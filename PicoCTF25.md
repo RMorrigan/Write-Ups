@@ -3,6 +3,7 @@
 This one I understood the least. I clicked the link and used the inspection tool in the firefox browser to look at the cookies. Originally, there wasn't anything there. I decided to interact with the login screen and attempted username: ADMIN and password: password. I wasn't successfully logged in, but a base64 encoded flag appeared in the cookies. I used chat gpt to decode it.
 ## Rust fixme1 | picoCTF{4r3_y0u_4_ru$t4c30n_n0w?}
 This is the first of 3 rust fixing challenges. There were small issues like missing semicolons.
+This is my working code:
 ```
 use xor_cryptor::XORCryptor;
 
@@ -36,7 +37,7 @@ fn main() {
 }
 ```
 ## Rust fixme2 | picoCTF{4r3_y0u_h4v1n5_fun_y31?}
-This is the second of 3 rust fixing challenges. There were issues like make the variables mutable.
+This is the second of 3 rust fixing challenges. There were issues like make the variables mutable. This is my working code:
 ```
 use xor_cryptor::XORCryptor;
 
@@ -76,6 +77,7 @@ fn main() {
 ```
 ## Rust fixme3 | picoCTF{n0w_y0uv3_f1x3d_1h3m_411}
 This is the last of 3 rust fixing challenges. There were issues like using unsafe operations.
+This is my working code:
 ```
 use xor_cryptor::XORCryptor;
 
